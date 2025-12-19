@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D1B2A"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".LoginActivity">
+
+
+    <!-- App Logo -->
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="252dp"
+        android:layout_height="264dp"
+        android:contentDescription="Logo"
+        android:src="@drawable/battle" />
+
+    <!-- Tagline -->
+
+
+    <!-- Contact Support -->
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="BATTLE VARSE"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginBottom="5dp"
+        android:text="YOUR ULTIMATE GAME EXPERIANC"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:layout_marginTop="12dp"/>
+
+
+    </LinearLayout>
+

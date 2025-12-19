@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ================= BACKGROUNDS ================= -->
+    <color name="bg_primary">#071B2B</color>
+    <color name="card_bg">#1F2A3A</color>
+    <color name="progress_bg">#2E384D</color>
+    <color name="progress_bg_alt">#3D5C7E</color>
+
+    <!-- ================= TEXT COLORS ================= -->
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_gray">#A0B3C5</color>
+    <color name="text_blue">#9AD1FF</color>
+    <color name="text_gold">#FFD700</color>
+    <color name="textPrimary">#FFFFFF</color>
+
+    <!-- ================= ACTION COLORS ================= -->
+    <color name="withdrawColor">#18EF70</color>   <!-- Neon Green -->
+    <color name="convertColor">#00C853</color>    <!-- Dark Green -->
+    <color name="buttonTextWhite">#FFFFFF</color>
+
+    <!-- ================= BUTTON COLORS ================= -->
+    <color name="button_live">#FF3B30</color>     <!-- Live Match -->
+    <color name="button_join">#34C759</color>     <!-- Join Button -->
+    <color name="button_alt">#A46E6B</color>
+
+    <!-- ================= TAG COLORS ================= -->
+    <color name="solo_tag">#FF6B6B</color>
+    <color name="map_tag">#4DA6FF</color>
+
+    <!-- ================= PROGRESS COLORS ================= -->
+    <color name="progress_red">#FF3B30</color>
+    <color name="progress_alt_red">#FF0E00</color>
+
+    <!-- ================= COMPATIBILITY COLORS ================= -->
+    <!-- These FIX resource linking errors -->
+    <color name="neonGreen">#18EF70</color>
+
+    <!-- Material / App Theme Required -->
+    <color name="colorPrimary">#071B2B</color>
+    <color name="colorPrimaryDark">#051421</color>
+    <color name="colorAccent">#18EF70</color>
+
+</resources>

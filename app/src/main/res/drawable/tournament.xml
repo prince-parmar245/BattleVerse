@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B0C10"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Your Tournament"
+        android:textColor="#66FCF1"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"/>
+
+    <LinearLayout
+        android:id="@+id/layoutButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"
+        android:layout_marginTop="40dp">
+
+        <!-- Free Fire -->
+        <Button
+            android:id="@+id/btnFreeFire"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="🔥 Free Fire Tournament"
+            android:textColor="#0B0C10"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:backgroundTint="#66FCF1"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- PUBG -->
+        <Button
+            android:id="@+id/btnPUBG"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="🎯 PUBG Tournament"
+            android:textColor="#0B0C10"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:backgroundTint="#45A29E"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- BGMI -->
+        <Button
+            android:id="@+id/btnBGMI"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="⚡ BGMI Tournament"
+            android:textColor="#0B0C10"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:backgroundTint="#5CDB95"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Call of Duty -->
+        <Button
+            android:id="@+id/btnCOD"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="🎮 Call of Duty Tournament"
+            android:textColor="#0B0C10"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:backgroundTint="#66FCF1"
+            android:layout_marginBottom="16dp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

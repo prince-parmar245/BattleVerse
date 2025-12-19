@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#071B2B"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+
+        <!-- Last Updated -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingBottom="12dp"
+            android:text="Privacy Policy"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Last Updated: November 11, 2025"
+            android:textColor="#A9B3C1"
+            android:textSize="14sp"
+            android:gravity="left"
+            android:paddingBottom="16dp" />
+
+        <!-- Section 1 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Information We Collect"
+            android:textColor="#00E676"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingTop="10dp"
+            android:paddingBottom="6dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We may collect your personal information such as name, email, mobile number, and game ID when you register or join tournaments. We may also collect device details, IP address, and usage data to improve app performance."
+            android:textColor="#E0E0E0"
+            android:textSize="15sp" />
+
+        <!-- Section 2 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. How We Use Your Information"
+            android:textColor="#00E676"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingTop="14dp"
+            android:paddingBottom="6dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Manage your account and tournaments\n• Send notifications, updates, and results\n• Process payments and rewards\n• Improve user experience and fix issues"
+            android:textColor="#E0E0E0"
+            android:textSize="15sp" />
+
+        <!-- Section 3 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Sharing of Information"
+            android:textColor="#00E676"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingTop="14dp"
+            android:paddingBottom="6dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We do not sell or rent your data. We may share your information only with payment partners, legal authorities (if required), or trusted service providers under strict confidentiality."
+            android:textColor="#E0E0E0"
+            android:textSize="15sp" />
+
+        <!-- Section 4 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Data Security"
+            android:textColor="#00E676"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingTop="14dp"
+            android:paddingBottom="6dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We use encrypted communication (HTTPS), secure databases, and limited access control to protect your information. However, no system is 100% secure."
+            android:textColor="#E0E0E0"
+            android:textSize="15sp" />
+
+        <!-- Section 5 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Your Rights"
+            android:textColor="#00E676"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingTop="14dp"
+            android:paddingBottom="6dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You can access, update, or delete your account anytime. To permanently remove your data, contact our support team."
+            android:textColor="#E0E0E0"
+            android:textSize="15sp" />
+
+        <!-- Section 6 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Children’s Privacy"
+            android:textColor="#00E676"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingTop="14dp"
+            android:paddingBottom="6dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This app is intended for users 13 years and above. We do not knowingly collect data from children under 13 years."
+            android:textColor="#E0E0E0"
+            android:textSize="15sp" />
+
+        <!-- Section 7 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. Contact Us"
+            android:textColor="#00E676"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingTop="14dp"
+            android:paddingBottom="6dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="If you have any questions, please contact us:\n\📞 +91-9023838791"
+            android:textColor="#E0E0E0"
+            android:textSize="15sp"
+            android:paddingBottom="20dp" />
+
+    </LinearLayout>
+
+</ScrollView>

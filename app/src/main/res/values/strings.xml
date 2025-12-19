@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Healthcare</string>
+
+    <!-- Navigation -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="lab_test">Lab Test</string>
+    <string name="medicine">Medicine</string>
+    <string name="find_doctor">Find Doctor</string>
+    <string name="health_articles">Health Articles</string>
+    <string name="order_details">Order Details</string>
+    <string name="logout">Logout</string>
+
+    <!-- Common -->
+    <string name="welcome">Welcome</string>
+    <string name="loading">Loading...</string>
+    <string name="error">Something went wrong</string>
+    <string name="esports_games">ESports Games</string>
+    <string name="my_matches">My Matches</string>
+    <string name="no_more_matches">No More Matches</string>
+</resources>
